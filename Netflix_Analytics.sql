@@ -40,15 +40,15 @@ INSERT INTO series (title, released_year, genre) VALUES
     ('Narcos', 2015, 'Drama');
     
 INSERT INTO reviewers (first_name, last_name) VALUES
-    ('Thomas', 'Stoneman'),
+    ('Enrique', 'Pietro'),
     ('Wyatt', 'Skaggs'),
-    ('Kimbra', 'Masters'),
+    ('Dee', 'Smith'),
     ('Domingo', 'Cortes'),
-    ('Colt', 'Steele'),
-    ('Pinkie', 'Petit'),
+    ('James', 'Ulrich'),
+    ('John', 'Wick'),
     ('Marlon', 'Crafford'),
-    ('Jane', 'Doe'), -- Additional reviewer
-    ('John', 'Smith'); -- Additional reviewer
+    ('Jane', 'Doe'),
+    ('John', 'Smith'); 
     
 INSERT INTO reviews (series_id, reviewer_id, rating) VALUES
     (1, 1, 8.0), (1, 2, 7.5), (1, 3, 8.5), (1, 4, 7.7), (1, 5, 8.9),
